@@ -1,0 +1,132 @@
+
+<!-- HTML Table and List -->
+
+<!DOCTYPE html>
+<head>
+
+<!-- Ignore the code inside style tag. We'll discuss them in further classes -->  
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+</style>  
+</head>
+
+<body>
+
+<!-- HTML Table -->  
+<table>
+  <tr>
+    <th colspan="6">TimeTable</th>
+  </tr>
+  <tr>
+    <th rowspan="6">Hours</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+  </tr>
+  <tr>
+    <td>Science</td>
+    <td>Maths</td>
+    <td>Science</td>
+    <td>Maths</td>
+    <td>Arts</td>
+  </tr>
+   <tr>
+    <td>Social</td>
+    <td>History</td>
+    <td>English</td>
+    <td>Social</td>
+    <td>Sports</td>
+  </tr>
+  <tr>
+  	<td colspan="5">--LUNCH--</td>
+  </tr>
+  <tr>
+  	<td>Science</td>
+  	<td>Maths</td>
+  	<td>Science</td>
+  	<td>Maths</td>
+  	<td rowspan="2">Project</td>
+  </tr>
+  <tr>
+  	<td>Social</td>
+  	<td>History</td>
+  	<td>English</td>
+  	<td>Social</td>
+</table>
+<br><br>
+
+<!-- HTML Nested List -->  
+
+<h1>Learning Web Development</h1>
+    <ol type="I">
+      <li>Background skills
+            <ol type="A">
+               <li>Unix Commands</li>
+               <li>Vin Text Editor</li>
+            </ol>
+      </li>
+      <li>HTML
+            <ol type="A">
+              <li>Minimal Page</li>
+              <li>Headings</li>
+              <li>Tags</li>
+              <li>Lists
+                <ol type="i">
+                  <li>Unordered</li>
+                  <li>Ordered</li>
+                  <li>Definiton</li>
+                  <li>Nested</li>
+                </ol>
+              </li>
+              <li>Links
+                    <ol type="i">
+                      <li>Absolute</li>
+                      <li>Relative</li>
+              </li>
+                    </ol>
+              <li>Images</li>
+
+
+      </li></ol>
+      <li>CSS
+            <ol type="A">
+              <li>Anatomy</li>
+              <li>Basic selectors
+                   <ol type="i">
+                    <li>Element</li>
+                    <li>Class</li>
+                    <li>Id</li>
+                    <li>Group</li>
+                   </ol>
+              </li>
+              <li>The DOM</li>
+              <li>Advanced selectors</li>
+              <li>BOX Model</li>
+            </ol>
+      </li>
+      <li>Programming
+            <ol type="A">
+              <li>Python</li>
+              <li>Javascript</li>
+            </ol>
+      </li>
+      <li>Database
+            <ol type="A">
+              <li>Flatfile</li>
+              <li>Relational</li>
+            </ol>
+      </li>
+      </li>
+
+  </ol>
+
+</body>
