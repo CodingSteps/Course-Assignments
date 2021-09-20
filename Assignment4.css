@@ -1,0 +1,28 @@
+ul{
+	background-color: black;
+	color: white;
+	list-style-type: none;
+    text-align: right;
+    padding-right: 20px;
+    height: 82px;
+    margin: 0px;
+}
+
+body{margin: 0px;}
+
+li{
+	
+  display: inline-block;
+	padding: 30px 20px 30px 20px;
+}
+
+
+a{color:white;
+  text-decoration: none;
+  font-size: 20px;
+  }
+
+
+  li:hover{background-color: grey;}
+
+  .active{background-color: red;}
