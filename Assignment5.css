@@ -1,0 +1,28 @@
+
+.outer{
+  border: 10px solid #c4f5e7;
+  width: 400px;
+  height: 350px;
+  position: relative;
+  margin: auto;
+}
+
+.animate{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:-1px; top:0px;}
+  25%  {background-color:yellow; left:300px; top:0px;}
+  50%  {background-color:blue; left:300px; top:250px;}
+  75%  {background-color:green; left:-1px; top:250px;}
+  100% {background-color:red; left:-1px; top:0px;}
+}
