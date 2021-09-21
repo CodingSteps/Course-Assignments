@@ -1,71 +1,46 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box; font-family: balsamiq Sans;letter-spacing: 2px;}
 
-body{margin: 0px;font-family: "Abel", sans-serif;}
-
-#logo{float: left; padding-left: 20px;padding-top: 20px;font-size: 30px;font-weight: 700;}
-
-#menu{float: right;list-style-type: none;}
-
-#menu li{
-	display: inline-block;
-	padding: 10px;	
-	font-size: 20px;
-	margin-right: 20px;
+.container{
+	background-color:#3f779b;
+	color: white;
+	padding: 100px 30px 100px 30px;
 }
 
+.container>h1{text-align:center;font-size: 300%;}
 
-#menu li:hover{background-color: lightgrey; border-radius: 10px;}
-
-li a{text-decoration: none;color: grey;}
-
-
-#mainImg{
-	clear: both;
-    background-image: url("images/Grilled-Vegetable-Wrap.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    position: relative;
-    width: 100%;
-}
-
-
-#imgTxt{
-	position: absolute;
-	bottom: 10px;
-	left: 20px;
-	font-size: 20px;
-}
-
-
-.section{
+.flexContainer{
 	display: flex;
-	flex-direction: row;
+	flex-direction:row;
 	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	justify-content: center	;
+	align-items: center;
 }
 
-.sectionImg{flex: 0 1 30%; height: 500px;margin: 20px;}
-.sectionTxt{flex:0 1 30%;margin: 20px;}
-.title{text-align: center;}
-.menuItems{text-align: left;}
+.card{
+	flex: 0 1 30%;
+	margin: 10px;
+	border: 20px solid #f7f7f7;
+	border-radius: 	10px;
+}
 
-h1,h3,h4{letter-spacing: 3px;}
-hr{width: 80%;text-align: center;border: 0;border-top: 1px solid #eee;}
+.card > div{
+	background-color:black;
+	opacity: 0.8;
+	text-align: center;
+	padding: 20px 5px 20px 5px;
+	margin-top: -5px; 
+	font-size:22px;
+    font-weight: 700;
+ }
 
-.contact{width: 1000px;margin: auto; margin-top: 80px;margin-bottom: 80px;}
 
-input{width: 80%;border:0;border-bottom: 1px solid #eee;margin:10px; padding: 10px;}
-#submit{border-radius: 10px;}
+ @media (max-width: 800px) {
+  .flexContainer {
+    flex-direction: column;
+  }
 
-footer{height: 100px;width: 100%;background-color: #F1F1F1; text-align: center;padding-top: 50px;}
-
-
-@media screen and (max-width: 768px)
-{
-	.sectionTxt{flex: 0 1 80%;}
-    .section{margin: 20px;}
-	.contact {width: 80%;text-align: justify; margin: 40px;}
+@media (max-width: 576px) {
+  .card>img{width: 100%;}
 } 
+
+}   
