@@ -1,5 +1,5 @@
  .container1 {
- 	background-color: #e2fad7;
+ 	background-color: #ddffcd;
  	text-align: center;
  	padding:20px 50px 50px 50px;
  }
@@ -14,7 +14,8 @@
 }
 
 #highlight{
-	background-color:#cade87;
+	background-color:#8b5a00;
+	color:white;
 	margin-left:280px;
 	margin-right:280px;
 	margin-top:20px;
@@ -39,6 +40,6 @@ footer{
 	text-align:center;
 	padding:10px;
 }
-body{margin: 0px;}
+body{margin: 0px;font-family: quicksand;}
 #heading{font-size: 50px;font-weight: 800;}
 li{line-height:40px;}
