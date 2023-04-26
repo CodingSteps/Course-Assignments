@@ -37,6 +37,8 @@ footer{
 	background-color:#8b5a00;
 	color:white !important;
 	text-align:center;
+	padding:10px;
 }
 body{margin: 0px;}
 #heading{font-size: 50px;font-weight: 800;}
+li{line-height:40px;}
