@@ -35,7 +35,7 @@
 
 footer{
 	background-color:#8b5a00;
-	color:white;
+	color:white !important;
 	text-align:center;
 }
 body{margin: 0px;}
