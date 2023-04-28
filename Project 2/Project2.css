@@ -12,6 +12,6 @@ padding: 50px;border-radius: 20px;opacity: 0.8;}
 
 #uname,#uemail,#uage,#urole,#ufeature{width:100%;height:40px;border-radius:10px;padding-left:10px;}
 
-#ucomment{border-radius:10px;padding-left:10px;}
+#ucomment{border-radius:10px;padding-left:10px;width:100%;}
 
 #submitbtn{width:100%;height:60px;border-radius:10px;padding-left:10px;background-color:#67ced8;font-size: 20px;}
