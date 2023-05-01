@@ -13,9 +13,11 @@
 
 <body>
 <div class="wrapper">
-  <h1>JavaScript pairs Game</h1>
-  <h3>Click any card to begin</h3>
-  <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+  <h1>Memory Game</h1> 
+
+     <h4>Click any card to begin</h4>
+     <div class="score">Score: </div>
+  
   <p id ="text"></p>
   <div id="container">
      <div class = "cardFront cardf0">
@@ -52,6 +54,7 @@ $(document).ready(function(){
 
   let cardElementArray = [];
   let pairs = 0;
+  $('.score').append(pairs);
 
   let images = [
    "https://freepngimg.com/thumb/frozen/3-2-frozen-png-picture-thumb.png",
@@ -107,6 +110,7 @@ $('.cardFront').click(function(){
         if(cardElementArray[0].image===cardElementArray[1].image)
         {
           pairs++;
+          $('.score').text("Score: "+ pairs);
           cardElementArray.pop();
           cardElementArray.pop();
         }
@@ -125,7 +129,7 @@ $('.cardFront').click(function(){
                 cardElementArray.pop();
                 cardElementArray.pop();
                  
-           },1200);
+           },1000);
 
             
            
