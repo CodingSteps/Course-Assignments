@@ -97,7 +97,7 @@ display:block;
 }
 
 
-.sidemenu li a {
+.sidemenu a {
   margin-bottom: 4px;
   display: block;
   padding: 8px;
@@ -108,12 +108,12 @@ display:block;
 
 
 
-.sidemenu li a:hover {
+.sidemenu a:hover {
   background-color: #555;
   color: white;
 }
 
-.sidemenu li .active {
+.sidemenu .active {
   background-color: #80ced6;
   color: white;
 }
