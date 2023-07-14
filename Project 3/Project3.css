@@ -53,8 +53,18 @@ body{margin: 0px;font-family: "Lato",sans-serif;}
 
 #grey{font-weight: 700;color: #666666;}
 
+/*
+.div1{width:300px;height:100px;border:2px solid red;box-sizing: border-box;}
+.div2{width:300px;height:100px;border:2px solid red;padding:50px;box-sizing: border-box;}*/
 
-/* Media Queries  phone sm - 576px, tablet md - 768px, 992px, 1200 to 1400px*/   
+*{box-sizing: border-box;}
+
+/* Actual Width = Width + Padding + Border 
+	Actual Height = Height + Padding + Border */
+
+
+/* Media Queries  phone sm - 576px, tablet md - 768px, 992px, 1200 to 1400px   */
+
 
 @media screen and (max-width: 500px)
 {

@@ -60,9 +60,9 @@
 
 .myBlock{clear: both; margin: 20px; padding: 50px 50px 20px 50px;}
 
-.blk{width: 1000px;margin: auto; text-align: center;}
+.blk{width: 1000px;margin: auto;text-align: center;}
 
-.blkHeading{font-size: 60px; padding: 20px; border-bottom: 1px solid black;}
+.blkHeading{font-size: 60px; padding: 20px; border-bottom: 1px solid black;text-align: center;}
 
 .someText{font-size: 20px;color: black; padding: 25px;}
 
@@ -118,7 +118,7 @@ hr{width: 90%;}
 
     .carousel-inner img {
            width: auto;
-           height: 750px;
+           height: 600px;
            background-position: center;
      }
  
@@ -128,9 +128,11 @@ hr{width: 90%;}
         font-size: 250%;
      }
 
-     .blk {width: auto;}
-     .blkHeading {font-size: 40px;}
+     .flexBlk{flex-direction: column;}
+     .blk {width: auto; text-align: justify;}
+     .blkHeading {font-size: 40px;text-align: justify;}
      .leftBlock, .rightBlock {padding: 5px;margin-top: 20px;}
+     .myBlock{padding: 10px;}
 
        h3 {font-size: 100%;}
 
@@ -149,7 +151,10 @@ hr{width: 90%;}
 
   .footerBlk, .flexBlk{flex-direction: column;}
 
-  .imageBlk img{width: 100%;}
+  .imageBlk img{width: 100%; height:auto;}
 
-  .rightImg{width: 100%;}
+  .rightImg{width: 100%; height:auto;}
+
+  .myBlock{padding: 10px;}
 }  
+
